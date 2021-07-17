@@ -1,0 +1,151 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.top-section {
+    background-image: url(./images/farhad-ibrahimzade-KpOl9jV2aJM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button {
+    background-color: rgb(145, 118, 43);
+    border-color: rgb(145, 118, 43);
+    color: white;
+}
+
+.top-content {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Nunito', sans-serif;
+
+    
+}
+.top-content p {
+    font-size: 24px;
+}
+.header-top {
+    color: white;
+    background-color: rgb(116, 114, 36);
+}
+.header-top h4 {
+    font-size: 8px;
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
+.menu-section {
+    font-family: 'Nunito',sans-serif ;
+}
+.menu-items p{
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.menu-items img {
+    width: inherit;
+    height: inherit;
+}
+.card-content {
+    width: 150px;
+    height: 150px;
+}
+
+.card-content img{
+    width: 80%;
+    height: 80%;
+}
+.price{
+    color: rgb(90, 83, 16);
+}
+.section-3 {
+    background-color: rgb(81, 92, 19);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.section-3 h3 {
+    font-size: 16px;
+} 
+.section-3-footer{
+    height: auto;
+}
+.section-2 {
+    width: inherit;
+}
+
+#dash-icon, #plus-icon {
+    color: rgb(41, 41, 104);
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    right: 0;
+    top: 70px;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s;
+    z-index: 1; /* 0.5 second transition effect to slide in the sidenav */
+    position: fixed;
+    background-color: white;
+}
+.closebtn {
+    position: absolute;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: black;
+}
+.menu-top {
+    font-size: 14px;
+}
+.menu-image {
+    width: 150px;
+    height: 150px;
+}
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-color: rgba(0, 0, 0, 0.541); /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    opacity: 0.3;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.cart-icon {
+    font-size: 28px;
+}
+#toppings {
+    font-weight: 700;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    background-color: white;
+}
+#navbar {
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+    .card-content {
+        width: 200px;
+        height: 200px;
+    }
+    #portion-button {
+        background-color: rgb(90, 83, 16);
+    }
+    .extra-items {
+        width: inherit;
+    }
+    .header-top h4 {
+        font-size: 12px;
+        margin: 0px;
+        letter-spacing: 4px;
+    }
+    
+}
